@@ -39,7 +39,8 @@ a img {
 <body>
 
 
-<p><strong>Note:</strong> You are not a registered user if you believe this to be a mistake please contact your EthosEnergy LIT contact.</p>
+<p><strong>Note:</strong> You are not a registered user if you believe this to be a mistake please contact your EthosEnergy LIT contact. Is this still working?
+</p>
 
 <a onclick="clearLocalStorage()" href="javascript:void(0);"><br>Logout</a>
 
