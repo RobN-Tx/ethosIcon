@@ -1,0 +1,32 @@
+AL_Controller_Battery_Low,Controller Battery Voltage Low
+AL_Forces_Enabled,Forces Enabled
+AL_Forces_Installed,Forces Installed
+AL_Logic_Fault,Controller Logic Fault
+AL_OSM_STest_Req,Backup Overspeed Monitor Syste
+AL_OSM_Tracking_Error,Backup Overspeed Monitor Speed
+AL_Turb_CNet_Ch_A_Fault,Turbine ControlNet Channel A F
+AL_Turb_CNet_Ch_B_Fault,Turbine ControlNet Channel B F
+AL_UF2110_Node_Fault,UF2110 Turbine CNet Node 11 Fa
+AL_UF2130_Node_Fault,UF2130 Turbine CNet Node 13 Fa
+AL_UF2150_Node_Fault,UF2150 Turbine CNet Node 15 Fa
+AL_UF2250_Node_Fault,UF2250 Turbine CNet Node 25 Fa
+AL_UF2280_Node_Fault,UF2280 Turbine CNet Node 28 Fa
+AL_ZF2060_Ch0_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch1_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch2_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch3_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch4_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch5_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch6_Overload,ZF2060 Discrete Output Module 
+AL_ZF2060_Ch7_Overload,ZF2060 Discrete Output Module 
+AL_ZF2061_Ch0_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch1_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch2_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch3_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch4_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch5_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch6_Overload,ZF2061 Discrete Output Module 
+AL_ZF2061_Ch7_Overload,ZF2061 Discrete Output Module 
+AL_ZF2062_Ch0_Overload,ZF2062 Discrete Output Module 
+AL_ZF2062_Ch1_Overload,ZF2062 Discrete Output Module 
+AL_ZF2062_Ch2_Overload,ZF2062 Discrete Output Module 

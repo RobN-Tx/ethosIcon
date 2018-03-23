@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/pi_data_result0.1.js"></script>
+    <script src="js/piwebapi_class.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <title>PI Web API and jQuery data results</title>
+
+</head>
+
+<body>
+    <h1 id="Title">Displaying SINUSOID data</h1>
+    <div class="container">
+        <h2 class="alarms">Alarms</h2>
+        <table class="table alarms" >
+            <tr>
+                <th>Array Number</th>
+                <th>Bit Number</th>
+                <th>Time Stamp</th>
+                <th>Alarm Description</th>
+            </tr>
+        </table>
+        <br />
+    </div>
+        <h2 class="shutdowns">Shutdowns</h2>
+        <table class="shutdowns" border="0" style="width: 20em; border: 1px solid #666;">
+            <tr>
+                <th>Array Number</th>
+                <th>Bit Number</th>
+                <th>Time Stamp</th>
+                <th>Alarm Description</th>
+            </tr>
+        </table>
+ 
+        <br />
+        <br />
+
+        <h2 class="recorded">Recorded Values of Sinusoid</h2>
+        <br />
+        <table class="recorded" border="0" style="width: 20em; border: 1px solid #666;">
+            <tr>
+                <th>Value</th>
+                <th>Timestamp</th>
+            </tr>
+        </table>
+
+        <br />
+        <br />
+        <h2 class="interpolated">Interpolated Values of Sinusoid</h2>
+        <br />
+        <table class="interpolated" border="0" style="width: 20em; border: 1px solid #666;">
+            <tr>
+                <th>Value</th>
+                <th>Timestamp</th>
+            </tr>
+        </table>
+</body>
+
+</html>

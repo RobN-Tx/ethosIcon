@@ -1,0 +1,67 @@
+<!---------------------------------------------------------------------------
+   Copyright 2015 OSIsoft, LLC.
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ ------------------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PI Web API Google Street View Application</title>
+	<meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="auth-view-mode">
+        <h3>PI Web API Google Street View App: Login Page</h3>
+        <form>
+            <div class="form-group">
+                <label for="username">User name</label>
+                <input type="text" class="form-control" id="username" placeholder="User name" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" />
+            </div>
+            <button type="button" id="go-to-map-btn" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+    <div id="map-view-mode" style="display : none;">
+      <!--  <div id="google">
+            <div id="map"></div>
+            <div id="pano"></div>
+        </div> -->
+        <div id="other">
+            <div class="form-group" id="search-address">
+                <p>Please enter the location you would like to visit.</p>
+                <div class="form-inline">
+                    <input type="text" class="form-control" id="address" />
+                    <button type="button" class="btn btn-default" id="search-address-btn">Search</button>
+                </div>
+            </div>
+            <div id="info">
+                <p>Latitude: <span id="latitude"></span></p>
+                <p>Longitude: <span id="longitude"></span></p>
+                <p>Heading: <span id="heading"></span></p>
+                <p>Pitch: <span id="pitch"></span></p>
+                <p>Zoom: <span id="zoom"></span></p>
+                <button type="button" id="start-btn" class="btn btn-primary">Start recording</button>
+                <button type="button" id="stop-btn" class="btn btn-danger">Stop recording</button>
+                <button type="button" id="back-btn" class="btn btn-default">Back to login page</button>
+            </div>
+        </div>
+    </div>
+   <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script> -->
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/piwebapi_wrapper.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
